@@ -256,7 +256,6 @@ def main():
     
     path = [str(params['filename'])]
     new_tokenizer = corpus.wpt(path)
-    new_tokens = new_tokenizer(data)
     
 
 if __name__ == "__main__":
